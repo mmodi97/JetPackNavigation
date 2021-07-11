@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+android:orientation="vertical"
+tools:context=".ChooseFragment">
+
+<!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="Enter Receiver Name"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="20dp"
+    android:textColorHint="@color/purple_700"
+    android:layout_marginRight="20dp"
+    android:id="@+id/name"
+    android:backgroundTint="@color/purple_700"
+    android:layout_marginTop="30dp"
+    android:hint="Enter Name" />
+
+<Button
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+
+
+    android:text="Submit"
+    android:id="@+id/namesubmit"
+    android:background="@color/white"
+
+
+    />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+
+
+        android:text="Cancel"
+        android:id="@+id/cancel_action"
+        android:background="@color/white"
+
+
+        />
+</LinearLayout>
